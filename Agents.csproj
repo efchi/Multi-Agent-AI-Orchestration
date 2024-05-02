@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".data\.2.epilogue.txt" />
+    <Content Include=".data\.0.meta.txt" />
+    <Content Include=".data\.1.prologue.txt" />
+    <Content Include=".data\.role.A.txt" />
+    <Content Include=".data\.role.C.txt" />
+    <Content Include=".data\.role.B.txt" />
+    <Content Include=".data\.role.D.txt" />
+    <Content Include=".docs\workflow-diagram.jpg" />
+    <Content Include=".docs\workflow-output.png" />
+    <Content Include=".docs\readme.it.md" />
+    <Content Include=".docs\readme.en.md" />
+	  <Content Include=".docs\full_script.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.16" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>

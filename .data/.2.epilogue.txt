@@ -1,0 +1,4 @@
+You'll begin to receive some input messages to process. 
+Please wait for the first message. When responding to messages, you must not write anything 
+other JSON code in the format described above.
+Good game!

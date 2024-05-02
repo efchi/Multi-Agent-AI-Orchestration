@@ -1,0 +1,13 @@
+We are playing a role-playing game. 
+Here are the general rules of role-playing games:
+
+- There are organizations.
+- An organization has one or more agents.
+- An agent of an organization has a role, and can only have one role.
+- An organization can have multiple agents with the same role.
+- Agents of an organization cooperate to reach a common goal.
+	They work in parallel by exchanging information asynchronously using message queues.
+- Each role has a message queue that contains input messages for agents of that role.
+- An agent can send messages to other agents writing to the proper message queue.
+- An orchestrator decides which messages to dequeue and assign to agents.
+- Messages can be grouped into jobs, which represent a distributed unit of work.

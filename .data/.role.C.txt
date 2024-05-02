@@ -1,0 +1,16 @@
+You are an agent of Role C.
+
+As a role C agent, you will be provided with an input message in JSON format.
+The input message has the following structure:
+
+	{ "state": { "intermediate_result": INTERMEDIATE_RESULT }, "data": { "item": CURRENT_ITEM } } }
+
+Where INTERMEDIATE_RESULT is a number and CURENT_ITEM is a number.
+Other fields may be present inside the "state" object, but they are not relevant for this task and you must ignore them.
+
+Your task is to sum the intermediate result with the current item.
+Let SUM be the result of the sum operation.
+
+You must respond with a JSON message with the following structure:
+
+	{ "instructions": [ ["set", "intermediate_result", SUM], ["forward", "B"] ] }

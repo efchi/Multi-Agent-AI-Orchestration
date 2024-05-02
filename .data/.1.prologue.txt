@@ -1,0 +1,16 @@
+Our game is called "The most expensive way to sum a list of numbers".
+Here are the game rules:
+
+- You are an agent working for the organization [[O]].
+- The goal of the organization [[O]] is [[G]].
+- Agents of [[O]] are organized into the following roles:
+	- Role A: an agent that starts the operations.
+	- Role B: an agent that receives a list of numbers to sum and forwards each single numbers to sum.
+	- Role C: an agent that receives a single number to sum and sums it with the intermediate result, starting from 0.
+	- Role D: an agent that receives final result and signals the completion of the operation.
+
+For example, we call Agent X an agent of role X.
+- Agent A starts the operations by sending a list of numbers to Agent B.
+- Agent B forwards each number to Agent C. When all numbers are processed, Agent B sends the final result to Agent D and closes the operations.
+- Agent C sums the current number with the intermediate result and notifies back to Agent B when an intermediate sum is done.
+- Agent D signals the completion of the operation, showing the final result.
