@@ -1,7 +1,9 @@
 
 # Multi-Agent AI Orchestration
 
-This document is available in [English](readme.en.md) and [Italian](readme.it.md) languages. Please note that the English version was largely translated with the help of an AI.
+This document is available in [English](readme.en.md) and [Italian](readme.it.md) languages. 
+
+Please note that the English version was largely translated with the help of an AI.
 
 ## The most expensive way to sum a list of numbers
 
@@ -9,7 +11,7 @@ In this repository, I present a small piece of software developed during my sabb
 
 The project consists of an **organizational model based on AI agents that cooperates together** to achieve a common goal, implemented in C# .NET language through a working prototype.
 
-This architecture is not new - similar systems (like [Microsoft AutoGen](https://microsoft.github.io/autogen/)) already exist, both consolidated or under development. Here I propose a simple, *from-scratch* implementation of the basic principles that are presumably going to constitute the next generation of software engineering.
+This architecture is not new - similar systems (like [Microsoft AutoGen](https://microsoft.github.io/autogen/)) already exist, both consolidated or under development. Here I propose a simple, from-scratch implementation of the basic principles that are presumably going to constitute the next generation of software engineering.
 
 The proposed model is a **conceptual experiment** that could provide a preview of how the companies of the future will be structured: groups of AI agents specialized and trained for specific tasks, communicating with each other asynchronously and sharing information in a secured manner, transforming data and performing actions. Significantly reducing or even eliminating the need to involve humans inside business processes (I've included a [personal comment](#comment) on the subject at the end of this document).
 
@@ -305,7 +307,7 @@ I invite the reader to clone the repository and follow the execution step-by-ste
 The implementation powered by AI agents **worked** after a few attempts, without the need for major corrections to the scripts or to configure the parameters of the underlying LLM model - for example, by setting a `temperature` close to zero. Subsequently, I conducted other tests with lower `temperature` values and refined the scripts to obtain cleaner outputs from a purely syntactic point of view, further verifying the correctness of the implementation.
 
 Below is a sample screenshot showing the output produced by the system for the input `[1, 2, 3, 42]`.
-&nbsp;
+
 ![Agents Workflow Diagram](workflow-output.png)
 
 In light of the results obtained, the following considerations emerge, some trivial, others less:
@@ -376,7 +378,7 @@ The reason is the following: the speed at which AI will infiltrate business and 
 
 This line of reasoning inevitably leads to political and social reflections that are not into the scope of this comment.
 
-The purpose of this comment is instead an invitation to **prepare**, without wanting to exaggerate but also not to underestimate the risks, particularly aimed at those who are considering starting a career in the field of computer science to make a living - *front-end developer*, *full-stack developer*, *back-end developer*, *data analyst*, and so on - as the industry will be profoundly overturned by the AI revolution.
+The purpose of this comment is instead an invitation to **prepare**, without wanting to exaggerate but also not to underestimate the risks, particularly aimed at those who are considering starting a career in the field of computer science to make a living - as a front-end developer, full-stack developer, back-end developer, data analyst, and so on - as the industry will be profoundly overturned by the AI revolution.
 
 ## Contacts
 

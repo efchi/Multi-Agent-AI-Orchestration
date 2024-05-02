@@ -306,7 +306,7 @@ Invito il lettore a clonare il repository e seguire l'esecuzione *step-by-step*,
 L'implementazione con AI ha **funzionato** dopo qualche tentativo, senza il bisogno di grosse correzioni agli script né di configurare i parametri del modello LLM sottostante - ad esempio settando una `temperature` vicina allo zero. Successivamente ho condotto altri test con valori minori di `temperature` e raffinato gli script per ottenere output più puliti sotto il punto di vista meramente sintattico, verificando ulteriormente la correttezza dell'implementazione.
 
 Di seguito uno screenshot di esempio che mostra l'output prodotto dal sistema per l'input `[1, 2, 3, 42]`.
-&nbsp;
+
 ![Agents Workflow Diagram](workflow-output.png)
 
 A fronte dei risultati ottenuti, emergono le seguenti considerazioni, alcune banali, altre meno:
