@@ -265,7 +265,7 @@ Which is nothing more than an asynchronous, distributed, and very complicated wa
             intermediate_result = 0                             # Agent A
             do
                 var current_item = list_of_items.pop()          # Agent B
-                sum += intermediate_result + current_item       # Agent C
+                var sum = intermediate_result + current_item    # Agent C
                 intermediate_result = sum                       # Agent C
             while (list.length > 0)                             # Agent B
             print intermediate_result                           # Agent D
